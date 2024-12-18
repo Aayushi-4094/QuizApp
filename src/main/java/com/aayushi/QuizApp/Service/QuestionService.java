@@ -1,12 +1,11 @@
 package com.aayushi.QuizApp.Service;
 
 import com.aayushi.QuizApp.dao.QuestionDao;
-import com.aayushi.QuizApp.Question;
+import com.aayushi.QuizApp.model.Question;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.ArrayList;
 import java.util.List;
